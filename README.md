@@ -11,7 +11,7 @@ Evaluates transcription accuracy across different accent groups to assess the pe
 The project demonstrates the use of AI for data preprocessing, augmentation, and evaluation, which are critical steps in building robust speech recognition systems.
 
 ## Dataset
-The project uses the Mozilla Common Voice Dataset, a publicly available dataset containing voice recordings in multiple languages and accents. The dataset includes:
+The project uses the Mozilla Common Voice Dataset, a publicly available dataset containing around 28,000 voice recordings in multiple languages and accents. The dataset includes:
 
 ## Audio Clips: Recordings in .mp3 format.
 
