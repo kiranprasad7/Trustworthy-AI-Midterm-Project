@@ -20,7 +20,7 @@ Metadata: A validated.tsv file containing information such as file names, transc
 ## Dataset Links
 #### Mozilla Common Voice Dataset: [Download Here](https://commonvoice.mozilla.org/en/datasets)
 
-## Project Files (Code and Data): [Google Drive Link](https://drive.google.com/drive/folders/1ga5RdRwS6nU0sGLRh14OaXgsMROe9jLY)
+#### Project Files (Code and Data): [Google Drive Link](https://drive.google.com/drive/folders/1ga5RdRwS6nU0sGLRh14OaXgsMROe9jLY)
 
 ## Dataset Structure
 #### clips/: Directory containing .mp3 audio files.
@@ -50,6 +50,13 @@ Metadata: A validated.tsv file containing information such as file names, transc
 #### Output: Accuracy scores for different accent groups.
 
 #### Purpose: Evaluates how well a speech recognition system performs across different accents, highlighting potential biases or performance disparities.
+
+## 4. User Interface (UI)
+#### Input: User-selected folders for input and output, and a random .wav file for processing.
+
+#### Output: Augmented .wav file saved in the output folder.
+
+#### Purpose: Provides an easy-to-use interface for users to interact with the audio processing pipeline.
 
 ## Project Structure
 
@@ -101,6 +108,17 @@ You can install the required libraries using the following command:
 #### Augmented .wav files will be saved in the clips_augmented/ directory.
 
 #### Transcription accuracy results will be printed in the console.
+
+## User Interface (UI) Details
+#### The UI is built using Tkinter, a Python library for creating graphical user interfaces. It allows users to:
+
+#### Select Input Folder: Choose the folder containing .wav files.
+
+#### Select Output Folder: Choose the folder to save the augmented files.
+
+#### Select Random File: Randomly select a .wav file from the input folder for processing.
+
+#### Process Audio: Apply pitch shifting to the selected file and save the augmented version in the output folder.
 
 ## Future Enhancements
 #### Integration with Speech Recognition Models: Use the preprocessed and augmented data to train a speech recognition model.
