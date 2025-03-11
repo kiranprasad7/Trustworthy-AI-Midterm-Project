@@ -18,9 +18,9 @@ The project uses the Mozilla Common Voice Dataset, a publicly available dataset 
 Metadata: A validated.tsv file containing information such as file names, transcriptions, accents, and speaker demographics.
 
 ## Dataset Links
-Mozilla Common Voice Dataset: Download Here
+#### Mozilla Common Voice Dataset: [Download Here](https://commonvoice.mozilla.org/en/datasets)
 
-## Project Files (Code and Data): Google Drive Link
+## Project Files (Code and Data): [Google Drive Link](https://drive.google.com/drive/folders/1ga5RdRwS6nU0sGLRh14OaXgsMROe9jLY)
 
 ## Dataset Structure
 #### clips/: Directory containing .mp3 audio files.
