@@ -1,6 +1,6 @@
 # Trustworthy-AI-Midterm-Project
 ## Overview
-This project focuses on building an AI-powered application for voice conversion and data augmentation using the Mozilla Common Voice Dataset. The application performs the following tasks:
+This project focuses on building an AI-powered application for bias detection and mitigation in speech recognition models using the Mozilla Common Voice Dataset. The application performs the following tasks:
 
 Converts .mp3 audio files to .wav format for compatibility with machine learning pipelines.
 
