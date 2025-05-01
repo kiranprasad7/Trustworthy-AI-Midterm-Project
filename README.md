@@ -129,6 +129,8 @@ To run this project, you need the following Python libraries:
   - Scottish
   - Filipino
 
+![image](https://github.com/user-attachments/assets/8bf551e6-099e-4229-9e63-85a3e7e6799c)
+
 ## 📊 Insights
 
 - The **WER gap** between the best and worst performing accents is substantial.
