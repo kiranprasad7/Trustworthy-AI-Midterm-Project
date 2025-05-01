@@ -66,7 +66,7 @@ Metadata: A other.tsv file containing information such as file names, transcript
 
 ## Project Structure
 
-#### VoiceConversionProject/
+#### Trustworthy Project/
 #### ├── clips/                  # Directory containing input .mp3 files
 #### ├── clips_wav/              # Directory for converted .wav files
 #### ├── clips_augmented/        # Directory for augmented .wav files
@@ -93,16 +93,14 @@ To run this project, you need the following Python libraries:
 
 ## How to Run the Project
 #### Download the Dataset:
-### Download the Mozilla Common Voice dataset from here.
+### Download the Mozilla Common Voice dataset from above provided link.
 
 ### Place the clips/ directory and other.tsv file in the project folder.
 
-#### Download the Mozilla Common Voice dataset from here.
+#### Download the Mozilla Common Voice dataset from given link.
 
 #### Download Project Files:
 
-
-#### Access the project code and additional files from the Google Drive link.
 
 ### You can install the required libraries using the following command::
 #### pip install pandas pydub numpy scikit-learn pandas AudioSegment librosa soundfile torch transformers torchaudio jiwer
@@ -130,6 +128,12 @@ To run this project, you need the following Python libraries:
   - South Asian
   - Scottish
   - Filipino
+
+## 📊 Insights
+
+- The **WER gap** between the best and worst performing accents is substantial.
+- Accents not seen frequently during pretraining (e.g., regional or mixed accents) tend to perform poorly.
+- Using a single global model introduces **systemic disparities** in transcription accuracy.
 
 ## ✅ Conclusion
 
