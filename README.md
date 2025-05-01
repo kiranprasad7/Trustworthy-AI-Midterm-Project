@@ -15,7 +15,16 @@ The project demonstrates the use of AI for data preprocessing, augmentation, and
 - Measure **WER** for each accent group to evaluate performance disparities.
 - Quantify **fairness gaps** using metrics like max disparity and WER ratio.
 - Provide a baseline for **trustworthy AI evaluation** in speech systems.
-  
+
+## ✅ Trustworthiness Aspect: Fairness and Bias
+
+- We investigate whether **accented English speakers** receive equal transcription quality.
+- We measure **WER per accent** and evaluate fairness using:
+  - **Group-based WER**
+  - **Max WER disparity**
+  - **WER ratio (worst vs. best)**
+  - **Coefficient of Variation**
+
 ## 📁 Dataset
 The project uses the Mozilla Common Voice Dataset, a publicly available dataset containing around 28,000 voice recordings in multiple languages and accents. The dataset includes:
 
