@@ -26,8 +26,6 @@ Metadata: A other.tsv file containing information such as file names, transcript
 ## Dataset Links
 #### Mozilla Common Voice Dataset: [Download Here](https://commonvoice.mozilla.org/en/datasets)
 
-#### Project Files (Code and Data): [Google Drive Link](https://drive.google.com/drive/folders/1ga5RdRwS6nU0sGLRh14OaXgsMROe9jLY)
-
 ## Dataset Structure
 #### clips.zip: Sample Directory containing 5 files of .mp3 audio files.
 
